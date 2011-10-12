@@ -1,0 +1,6 @@
+
+*.sqlite
+*.egg
+*.pyc
+CACHE
+
