@@ -18,5 +18,6 @@ urlpatterns = patterns('',
 
     url(r'^$', 'tweets.views.index'),
     url(r'^greet/([A-Za-z-]+)/$', 'tweets.views.greet'),
+    url(r'^greet/$', 'tweets.views.index'),
     url(r'^tweets/$', 'tweets.views.get_tweets'),
 )
