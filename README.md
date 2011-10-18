@@ -14,7 +14,7 @@ installed.
         Git: http://git-scm.com
         Python: http://python.org (install to default directory, then
                 set PATH)
-                Append 
+                Append C:\Python27
 
     OS X:
         Git: brew install git # for homebrew
@@ -38,39 +38,10 @@ Next, install Django.
 
     easy_install django
 
-Create a Django project, then run it
+Clone this Django project, then run it
 
-    django-admin.py startproject osstwitter
-    cd osstwitter
+    git clone git@github.com:victorneo/osstwitter-oct19.git
+    cd osstwitter-oct19
     python manage.py runserver
 
-Request everyone to navigate to http://localhost:8000/ to view the
-temporary Django page.
-
-Once, open up 'settings.py' to discuss about the settings.
-
-    First, talk about DEBUG = True
-        It's a variable assignment
-        Python boolean variables are True or False
-
-    Talk about ADMINS tuple
-        There are lists and tuples in Python
-        Easy to be confused
-        a_list = ['hello', 'world']
-        a_tuple = ('hello', 'world')
-
-        a_list[0]
-        a_tuple[0]
-
-        a_list.append('earthlings')
-        a_tuple.append('earthlings') # ERROR
-
-
-    Talk about Dictionaries, similar to hash tables in Java
-        classrooms = {} # dict()
-        classrooms[1] = 50
-        classrooms['Lab 9'] = 30
-
-    Database:
-        sqlite3
-        osstwitter.sqlite
+Navigate to http://localhost:8000/.
