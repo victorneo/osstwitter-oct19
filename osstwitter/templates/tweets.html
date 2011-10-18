@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head><title>OSS Tweets</title></head>
+    <body>
+        <ul>
+            {% for r in results %}
+                <li>{{r.text}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
